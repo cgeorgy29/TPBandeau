@@ -15,7 +15,6 @@ public class Scenario {
     public void ajoutEffet(Bandeau bandeau, Effet effet, int repet){
         for(int i = 1; i <= repet; i++){
             this.listEffet.add(effet);
-            System.out.println("Effet ajouté");
         }
     }
 
